@@ -1,0 +1,915 @@
+{
+  "title": "AI Glossary",
+  "as_of": "2026-10-22",
+  "count": 227,
+  "terms": [
+    {
+      "term": "A/B Testing",
+      "description": "Comparing two versions of a model, prompt, or feature on live traffic to see which performs better."
+    },
+    {
+      "term": "A2A (Agent2Agent Protocol)",
+      "description": "An open protocol that lets AI agents built by different vendors discover each other and exchange tasks."
+    },
+    {
+      "term": "Ablation Study",
+      "description": "An experiment that removes or disables one part of a model or system to measure how much that part contributes."
+    },
+    {
+      "term": "Activation Function",
+      "description": "A function in a neural network layer that adds non-linearity so the network can learn complex patterns (e.g. ReLU, GELU)."
+    },
+    {
+      "term": "Active Learning",
+      "description": "A training approach where the model picks the most informative unlabeled examples for humans to label."
+    },
+    {
+      "term": "Adapter",
+      "description": "A small trainable module added to a frozen pretrained model so it can learn a new task cheaply."
+    },
+    {
+      "term": "Adversarial Attack",
+      "description": "Deliberately crafted input designed to make an AI model produce wrong or unsafe output."
+    },
+    {
+      "term": "Agent (AI Agent)",
+      "description": "An LLM-powered system that plans, uses tools, and takes multiple steps on its own to achieve a goal."
+    },
+    {
+      "term": "Agent Loop",
+      "description": "The repeating cycle of observe, plan, act, and check results that an agent runs until a task is done."
+    },
+    {
+      "term": "Agent Skills",
+      "description": "Packaged folders of instructions and resources that an agent loads on demand to perform a specialized task."
+    },
+    {
+      "term": "Agentic AI",
+      "description": "AI systems that act autonomously toward goals using planning and tools, rather than only answering prompts."
+    },
+    {
+      "term": "Agentic Coding",
+      "description": "Using an AI agent that reads, edits, runs, and tests code across a project with limited step-by-step human direction."
+    },
+    {
+      "term": "Agentic RAG",
+      "description": "RAG where an agent decides when, what, and how often to retrieve, and can refine its own searches."
+    },
+    {
+      "term": "Agentic Workflow",
+      "description": "A multi-step process where an AI decides the next step dynamically instead of following a fixed script."
+    },
+    {
+      "term": "AGI (Artificial General Intelligence)",
+      "description": "A hypothetical AI that can match or exceed human ability across nearly all intellectual tasks."
+    },
+    {
+      "term": "AI Alignment",
+      "description": "The effort to make AI systems pursue goals and behave in ways that match human intentions and values."
+    },
+    {
+      "term": "AI Governance",
+      "description": "The policies, standards, and oversight processes used to manage how AI is built and used responsibly."
+    },
+    {
+      "term": "AI Safety",
+      "description": "The field focused on preventing AI systems from causing harm, whether through misuse, errors, or misaligned behavior."
+    },
+    {
+      "term": "AI Slop",
+      "description": "Low-quality, mass-produced AI-generated content that is generic, inaccurate, or spammy."
+    },
+    {
+      "term": "Algorithm",
+      "description": "A defined set of steps a computer follows to solve a problem or perform a task."
+    },
+    {
+      "term": "Alignment Faking",
+      "description": "When a model appears to follow its training objectives while behaving differently when it believes it is not being monitored."
+    },
+    {
+      "term": "Anthropomorphism",
+      "description": "Attributing human traits, emotions, or intentions to AI systems."
+    },
+    {
+      "term": "API (Application Programming Interface)",
+      "description": "A defined way for software to send requests to a service, such as an AI model, and receive responses."
+    },
+    {
+      "term": "Artificial Intelligence (AI)",
+      "description": "The field of building machines that perform tasks normally requiring human intelligence, like learning, reasoning, and perception."
+    },
+    {
+      "term": "Artificial Neural Network",
+      "description": "A computing model made of connected layers of simple units that learns patterns from data."
+    },
+    {
+      "term": "ASI (Artificial Superintelligence)",
+      "description": "A hypothetical AI that would far surpass the best human minds in virtually every domain."
+    },
+    {
+      "term": "Attention Mechanism",
+      "description": "A technique that lets a model weigh which parts of its input matter most when producing each output."
+    },
+    {
+      "term": "Autoencoder",
+      "description": "A neural network that compresses data into a smaller representation and then reconstructs it."
+    },
+    {
+      "term": "AutoML",
+      "description": "Tools that automate steps of building machine learning models, such as model selection and tuning."
+    },
+    {
+      "term": "Autoregressive Model",
+      "description": "A model that generates output one piece at a time, with each new piece conditioned on the ones before it."
+    },
+    {
+      "term": "Backpropagation",
+      "description": "The algorithm that computes how much each weight contributed to the error so a network can be updated."
+    },
+    {
+      "term": "Batch Size",
+      "description": "The number of training examples processed together before the model's weights are updated."
+    },
+    {
+      "term": "Beam Search",
+      "description": "A decoding method that keeps several candidate sequences at once and picks the highest-scoring one."
+    },
+    {
+      "term": "Benchmark",
+      "description": "A standardized test or dataset used to compare the performance of AI models."
+    },
+    {
+      "term": "BERT",
+      "description": "A transformer-based language model from Google that reads text in both directions to understand context."
+    },
+    {
+      "term": "Bias (Algorithmic)",
+      "description": "Systematic unfairness in an AI system's outputs, often caused by skewed data or design choices."
+    },
+    {
+      "term": "Bias-Variance Tradeoff",
+      "description": "The balance between a model being too simple to capture patterns (bias) and too sensitive to training noise (variance)."
+    },
+    {
+      "term": "BLEU Score",
+      "description": "A metric that rates machine translation quality by comparing its output to human reference translations."
+    },
+    {
+      "term": "BM25",
+      "description": "A classic keyword-based ranking function used in search to score how relevant documents are to a query."
+    },
+    {
+      "term": "Byte Pair Encoding (BPE)",
+      "description": "A tokenization method that builds a vocabulary by repeatedly merging the most frequent pairs of characters or bytes."
+    },
+    {
+      "term": "Chain-of-Thought (CoT)",
+      "description": "A technique where a model writes out intermediate reasoning steps before giving a final answer."
+    },
+    {
+      "term": "Chatbot",
+      "description": "A program that converses with users in natural language, either from scripted rules or an AI model."
+    },
+    {
+      "term": "Checkpoint",
+      "description": "A saved snapshot of a model's weights during or after training that can be reloaded later."
+    },
+    {
+      "term": "Chunking",
+      "description": "Splitting documents into smaller pieces so they can be embedded and retrieved effectively in RAG."
+    },
+    {
+      "term": "Classification",
+      "description": "A task where a model assigns an input to one of a set of predefined categories."
+    },
+    {
+      "term": "CLIP",
+      "description": "An OpenAI model that learns to link images and text in a shared embedding space."
+    },
+    {
+      "term": "Clustering",
+      "description": "Grouping similar data points together without predefined labels."
+    },
+    {
+      "term": "Computer Use",
+      "description": "An agent capability where the model views a screen and controls a mouse and keyboard to operate software."
+    },
+    {
+      "term": "Computer Vision",
+      "description": "The field of enabling machines to interpret and understand images and video."
+    },
+    {
+      "term": "Confusion Matrix",
+      "description": "A table that shows how many predictions a classifier got right and wrong for each class."
+    },
+    {
+      "term": "Constitutional AI",
+      "description": "A training method where a model is guided by a written set of principles to critique and improve its own responses."
+    },
+    {
+      "term": "Context Compaction",
+      "description": "Summarizing or trimming earlier parts of a long conversation or task to free up space in the context window."
+    },
+    {
+      "term": "Context Engineering",
+      "description": "The practice of designing and managing everything placed in a model's context, including instructions, data, tools, and memory."
+    },
+    {
+      "term": "Context Rot",
+      "description": "The decline in a model's accuracy and focus as its context window fills with more and more content."
+    },
+    {
+      "term": "Context Window",
+      "description": "The maximum amount of text, measured in tokens, that a model can consider at one time."
+    },
+    {
+      "term": "Contrastive Learning",
+      "description": "A training method that pulls similar examples closer together and pushes dissimilar ones apart in embedding space."
+    },
+    {
+      "term": "Convolutional Neural Network (CNN)",
+      "description": "A neural network that uses sliding filters to detect patterns, mainly used for images."
+    },
+    {
+      "term": "Copilot",
+      "description": "An AI assistant embedded in an app or workflow that helps a person while they work."
+    },
+    {
+      "term": "Cosine Similarity",
+      "description": "A measure of how similar two vectors are based on the angle between them, widely used to compare embeddings."
+    },
+    {
+      "term": "Cross-Entropy Loss",
+      "description": "A loss function that measures how far a model's predicted probabilities are from the correct answers."
+    },
+    {
+      "term": "Cross-Validation",
+      "description": "Evaluating a model by training and testing it on multiple different splits of the data."
+    },
+    {
+      "term": "Curriculum Learning",
+      "description": "Training a model on easier examples first and gradually moving to harder ones."
+    },
+    {
+      "term": "Data Augmentation",
+      "description": "Creating extra training examples by modifying existing ones, such as flipping or cropping images."
+    },
+    {
+      "term": "Data Drift",
+      "description": "A change over time in the input data a model sees compared with its training data, which can hurt accuracy."
+    },
+    {
+      "term": "Data Labeling",
+      "description": "Adding tags or annotations to raw data so it can be used for supervised learning."
+    },
+    {
+      "term": "Data Parallelism",
+      "description": "Training on many chips at once by giving each a copy of the model and a different slice of the data."
+    },
+    {
+      "term": "Data Poisoning",
+      "description": "Corrupting training data on purpose to make a model learn wrong or harmful behavior."
+    },
+    {
+      "term": "Decision Tree",
+      "description": "A model that makes predictions by following a series of yes/no questions about the input features."
+    },
+    {
+      "term": "Deep Learning",
+      "description": "Machine learning that uses neural networks with many layers to learn complex patterns."
+    },
+    {
+      "term": "Deepfake",
+      "description": "Synthetic image, audio, or video generated by AI to realistically imitate a real person."
+    },
+    {
+      "term": "Differential Privacy",
+      "description": "A mathematical technique that adds noise so results reveal little about any single individual in the data."
+    },
+    {
+      "term": "Diffusion Model",
+      "description": "A generative model that creates data by gradually removing noise, commonly used for images and video."
+    },
+    {
+      "term": "Dimensionality Reduction",
+      "description": "Reducing the number of features in data while keeping its most important structure."
+    },
+    {
+      "term": "Direct Preference Optimization (DPO)",
+      "description": "A method that tunes a model on human preference pairs directly, without training a separate reward model."
+    },
+    {
+      "term": "Distillation",
+      "description": "Training a smaller model to imitate the behavior of a larger one."
+    },
+    {
+      "term": "Distributed Training",
+      "description": "Splitting model training across many GPUs or machines to handle large models and datasets."
+    },
+    {
+      "term": "Dropout",
+      "description": "A regularization technique that randomly turns off some neurons during training to reduce overfitting."
+    },
+    {
+      "term": "Embedding",
+      "description": "A list of numbers that represents the meaning of text, an image, or other data so similar items sit close together."
+    },
+    {
+      "term": "Embedding Model",
+      "description": "A model that converts text, images, or other data into embeddings for search and comparison."
+    },
+    {
+      "term": "Emergent Abilities",
+      "description": "Capabilities that appear in larger models without being explicitly trained for, though some may depend on how they are measured."
+    },
+    {
+      "term": "Encoder-Decoder",
+      "description": "A model design where an encoder reads the input and a decoder generates the output, as in translation."
+    },
+    {
+      "term": "Ensemble Learning",
+      "description": "Combining the predictions of multiple models to get better results than any single one."
+    },
+    {
+      "term": "Epoch",
+      "description": "One full pass through the entire training dataset."
+    },
+    {
+      "term": "EU AI Act",
+      "description": "The European Union's law that regulates AI systems according to their level of risk."
+    },
+    {
+      "term": "Evals (Evaluations)",
+      "description": "Systematic tests that measure how well an AI model or application performs on defined tasks."
+    },
+    {
+      "term": "Explainable AI (XAI)",
+      "description": "Methods that make an AI system's decisions understandable to humans."
+    },
+    {
+      "term": "F1 Score",
+      "description": "A metric that combines precision and recall into a single number."
+    },
+    {
+      "term": "Feature",
+      "description": "An individual measurable input property used by a machine learning model."
+    },
+    {
+      "term": "Feature Engineering",
+      "description": "Selecting and transforming raw data into inputs that help a model learn better."
+    },
+    {
+      "term": "Federated Learning",
+      "description": "Training a shared model across many devices or sites without moving the raw data to a central server."
+    },
+    {
+      "term": "Few-Shot Learning",
+      "description": "Getting a model to perform a task from only a few examples, often placed in the prompt."
+    },
+    {
+      "term": "Fine-Tuning",
+      "description": "Further training a pretrained model on a specific dataset to specialize it for a task or style."
+    },
+    {
+      "term": "FlashAttention",
+      "description": "A faster, more memory-efficient way of computing attention on GPUs."
+    },
+    {
+      "term": "Foundation Model",
+      "description": "A large model trained on broad data that can be adapted to many downstream tasks."
+    },
+    {
+      "term": "Frontier Model",
+      "description": "One of the most capable AI models available at a given time, at the leading edge of performance."
+    },
+    {
+      "term": "Function Calling (Tool Calling)",
+      "description": "A feature where a model outputs a structured request for a specific function or API so software can run it."
+    },
+    {
+      "term": "GAN (Generative Adversarial Network)",
+      "description": "A pair of networks, a generator and a discriminator, trained against each other to produce realistic data."
+    },
+    {
+      "term": "Generalization",
+      "description": "A model's ability to perform well on new data it did not see during training."
+    },
+    {
+      "term": "Generative AI",
+      "description": "AI that creates new content such as text, images, audio, video, or code."
+    },
+    {
+      "term": "GGUF",
+      "description": "A file format for storing quantized models so they can run efficiently on local hardware."
+    },
+    {
+      "term": "GPT (Generative Pre-trained Transformer)",
+      "description": "A family of transformer language models trained to predict the next token and then adapted for tasks."
+    },
+    {
+      "term": "GPU (Graphics Processing Unit)",
+      "description": "A chip with many parallel cores that is the main hardware for training and running AI models."
+    },
+    {
+      "term": "Gradient Descent",
+      "description": "An optimization method that adjusts a model's weights step by step to reduce its error."
+    },
+    {
+      "term": "GraphRAG",
+      "description": "A RAG approach that retrieves from a knowledge graph of entities and relationships rather than only text chunks."
+    },
+    {
+      "term": "Grounding",
+      "description": "Tying a model's answers to verifiable sources or real-world data to keep them accurate."
+    },
+    {
+      "term": "GRPO (Group Relative Policy Optimization)",
+      "description": "A reinforcement learning method that scores a group of sampled answers against each other, without a separate value model."
+    },
+    {
+      "term": "Guardrails",
+      "description": "Rules and checks placed around an AI system to keep its inputs and outputs safe and on-policy."
+    },
+    {
+      "term": "Hallucination",
+      "description": "When a model produces fluent but false or made-up information."
+    },
+    {
+      "term": "Harness (Agent Harness)",
+      "description": "The code around a model that manages its prompts, tools, memory, and loop so it can work as an agent."
+    },
+    {
+      "term": "Human-in-the-Loop (HITL)",
+      "description": "A design where a person reviews, approves, or corrects an AI system's decisions."
+    },
+    {
+      "term": "Hybrid Search",
+      "description": "Combining keyword search and semantic vector search to retrieve more relevant results."
+    },
+    {
+      "term": "Hyperparameter",
+      "description": "A setting chosen before training, such as learning rate or batch size, that controls how a model learns."
+    },
+    {
+      "term": "Image Generation",
+      "description": "Creating new images from text prompts or other inputs using generative models."
+    },
+    {
+      "term": "In-Context Learning",
+      "description": "A model's ability to learn a task from examples or instructions given in its prompt, without changing its weights."
+    },
+    {
+      "term": "Inference",
+      "description": "Running a trained model to generate predictions or outputs from new input."
+    },
+    {
+      "term": "Instruction Tuning",
+      "description": "Fine-tuning a model on instruction and response pairs so it follows user directions better."
+    },
+    {
+      "term": "Interpretability",
+      "description": "The study of understanding how and why a model produces its outputs."
+    },
+    {
+      "term": "Jailbreak",
+      "description": "A prompt or technique that tricks a model into ignoring its safety rules."
+    },
+    {
+      "term": "K-Means",
+      "description": "A clustering algorithm that groups data into k clusters around central points."
+    },
+    {
+      "term": "k-Nearest Neighbors (k-NN)",
+      "description": "An algorithm that classifies a data point based on the most common label among its closest neighbors."
+    },
+    {
+      "term": "Knowledge Cutoff",
+      "description": "The date after which a model's training data contains no information."
+    },
+    {
+      "term": "Knowledge Graph",
+      "description": "A structured network of entities and the relationships between them."
+    },
+    {
+      "term": "KV Cache",
+      "description": "Stored attention keys and values from earlier tokens that speed up text generation."
+    },
+    {
+      "term": "Large Language Model (LLM)",
+      "description": "A neural network trained on huge amounts of text to understand and generate human language."
+    },
+    {
+      "term": "Latency",
+      "description": "The delay between sending a request to an AI system and receiving its response."
+    },
+    {
+      "term": "Latent Space",
+      "description": "A compressed internal representation space where a model encodes the underlying features of data."
+    },
+    {
+      "term": "Learning Rate",
+      "description": "A setting that controls how big each weight update is during training."
+    },
+    {
+      "term": "LLM-as-a-Judge",
+      "description": "Using one language model to evaluate or score the outputs of another."
+    },
+    {
+      "term": "LoRA (Low-Rank Adaptation)",
+      "description": "A fine-tuning method that trains small added matrices instead of all of a model's weights."
+    },
+    {
+      "term": "Loss Function",
+      "description": "A formula that measures how wrong a model's predictions are, guiding training."
+    },
+    {
+      "term": "LSTM (Long Short-Term Memory)",
+      "description": "A type of recurrent neural network designed to remember information over long sequences."
+    },
+    {
+      "term": "Machine Learning (ML)",
+      "description": "A branch of AI where systems learn patterns from data instead of being explicitly programmed."
+    },
+    {
+      "term": "Mamba",
+      "description": "A state space model architecture that processes sequences efficiently as an alternative to transformers."
+    },
+    {
+      "term": "MCP (Model Context Protocol)",
+      "description": "An open standard for connecting AI applications to external tools, data sources, and services."
+    },
+    {
+      "term": "Mechanistic Interpretability",
+      "description": "Research that reverse-engineers the internal circuits of neural networks to explain how they compute."
+    },
+    {
+      "term": "Memory (AI Agent)",
+      "description": "Mechanisms that let an agent keep and recall information across steps or sessions."
+    },
+    {
+      "term": "Mixture of Experts (MoE)",
+      "description": "A model design where only a few specialized sub-networks activate for each input, saving compute."
+    },
+    {
+      "term": "Model Card",
+      "description": "A document describing a model's intended use, performance, limitations, and risks."
+    },
+    {
+      "term": "Model Collapse",
+      "description": "Degradation that happens when models are trained repeatedly on AI-generated data instead of real data."
+    },
+    {
+      "term": "Model Parallelism",
+      "description": "Splitting a single large model across multiple chips because it cannot fit on one."
+    },
+    {
+      "term": "Multi-Agent System",
+      "description": "A setup where several AI agents work together, each with its own role, to complete a task."
+    },
+    {
+      "term": "Multi-Head Attention",
+      "description": "Running several attention operations in parallel so a model can focus on different relationships at once."
+    },
+    {
+      "term": "Multimodal Model",
+      "description": "A model that can process or generate more than one type of data, such as text, images, audio, and video."
+    },
+    {
+      "term": "Natural Language Processing (NLP)",
+      "description": "The field of enabling computers to understand, interpret, and generate human language."
+    },
+    {
+      "term": "Neural Network",
+      "description": "A computing system of connected nodes, loosely inspired by the brain, that learns patterns from data."
+    },
+    {
+      "term": "NPU (Neural Processing Unit)",
+      "description": "A chip specialized for running AI workloads efficiently, often on phones and laptops."
+    },
+    {
+      "term": "Object Detection",
+      "description": "A computer vision task that finds and labels objects within an image or video."
+    },
+    {
+      "term": "Open-Weight Model",
+      "description": "A model whose trained weights are publicly released, though its training data or code may not be."
+    },
+    {
+      "term": "Optimizer",
+      "description": "The algorithm, such as Adam, that updates a model's weights to reduce loss during training."
+    },
+    {
+      "term": "Orchestrator",
+      "description": "An agent or program that breaks a goal into tasks and delegates them to other agents or tools."
+    },
+    {
+      "term": "Overfitting",
+      "description": "When a model memorizes its training data and performs poorly on new data."
+    },
+    {
+      "term": "Parameter",
+      "description": "A learned value inside a model, such as a weight, that is adjusted during training."
+    },
+    {
+      "term": "PEFT (Parameter-Efficient Fine-Tuning)",
+      "description": "Methods that adapt a large model by training only a small number of added or selected parameters."
+    },
+    {
+      "term": "Perplexity",
+      "description": "A metric of how well a language model predicts text, where lower means better."
+    },
+    {
+      "term": "Positional Encoding",
+      "description": "Information added to tokens so a transformer knows their order in a sequence."
+    },
+    {
+      "term": "Post-Training",
+      "description": "Training steps applied after pretraining, such as instruction tuning and reinforcement learning, to shape behavior."
+    },
+    {
+      "term": "Precision",
+      "description": "The share of a model's positive predictions that are actually correct."
+    },
+    {
+      "term": "Pretraining",
+      "description": "The initial large-scale training of a model on broad data before it is specialized."
+    },
+    {
+      "term": "Prompt",
+      "description": "The input text or instructions given to an AI model to get a response."
+    },
+    {
+      "term": "Prompt Caching",
+      "description": "Reusing the processed form of a repeated prompt prefix to cut cost and latency."
+    },
+    {
+      "term": "Prompt Engineering",
+      "description": "Writing and refining prompts to get better outputs from a model."
+    },
+    {
+      "term": "Prompt Injection",
+      "description": "An attack where malicious text in the input or retrieved content tricks a model into following hidden instructions."
+    },
+    {
+      "term": "Pruning",
+      "description": "Removing unnecessary weights or neurons from a model to make it smaller and faster."
+    },
+    {
+      "term": "Quantization",
+      "description": "Reducing the numerical precision of a model's weights to shrink its size and speed up inference."
+    },
+    {
+      "term": "RAG (Retrieval-Augmented Generation)",
+      "description": "A technique where a model retrieves relevant information from external sources and uses it to generate a grounded answer."
+    },
+    {
+      "term": "Reasoning Model",
+      "description": "A model trained to think through problems step by step, often using extra compute at inference time, before answering."
+    },
+    {
+      "term": "Recall",
+      "description": "The share of actual positive cases that a model correctly identifies."
+    },
+    {
+      "term": "Recurrent Neural Network (RNN)",
+      "description": "A neural network that processes sequences by passing a hidden state from one step to the next."
+    },
+    {
+      "term": "Red Teaming",
+      "description": "Deliberately probing an AI system with adversarial tests to find safety and security weaknesses."
+    },
+    {
+      "term": "Regularization",
+      "description": "Techniques that discourage a model from overfitting by limiting its complexity."
+    },
+    {
+      "term": "Reinforcement Learning (RL)",
+      "description": "A learning approach where an agent improves by taking actions and receiving rewards or penalties."
+    },
+    {
+      "term": "Reranking",
+      "description": "A second step that reorders retrieved results with a more accurate model to put the best ones first."
+    },
+    {
+      "term": "Responsible AI",
+      "description": "The practice of developing and using AI in ways that are fair, transparent, safe, and accountable."
+    },
+    {
+      "term": "Retrieval",
+      "description": "The step of finding relevant documents or data to give to a model."
+    },
+    {
+      "term": "Reward Hacking",
+      "description": "When a model exploits flaws in its reward signal to score high without doing the intended task."
+    },
+    {
+      "term": "Reward Model",
+      "description": "A model trained to score outputs by how well they match human preferences, used to guide training."
+    },
+    {
+      "term": "RLHF (Reinforcement Learning from Human Feedback)",
+      "description": "Training a model with reinforcement learning using rewards derived from human preference judgments."
+    },
+    {
+      "term": "RLVR (Reinforcement Learning with Verifiable Rewards)",
+      "description": "Reinforcement learning where rewards come from automatically checkable outcomes, such as correct math or passing tests."
+    },
+    {
+      "term": "RoPE (Rotary Position Embedding)",
+      "description": "A way of encoding token positions by rotating vectors, widely used in modern language models."
+    },
+    {
+      "term": "Sandbox",
+      "description": "An isolated environment where an AI agent can run code or actions without affecting real systems."
+    },
+    {
+      "term": "Scaling Laws",
+      "description": "Empirical relationships showing how model performance improves as size, data, and compute increase."
+    },
+    {
+      "term": "Self-Attention",
+      "description": "Attention where each token in a sequence weighs its relationship to every other token in the same sequence."
+    },
+    {
+      "term": "Self-Supervised Learning",
+      "description": "Learning from unlabeled data by creating the training signal from the data itself, such as predicting the next word."
+    },
+    {
+      "term": "Semantic Search",
+      "description": "Search that finds results by meaning rather than exact keyword matches."
+    },
+    {
+      "term": "Sentiment Analysis",
+      "description": "Determining whether a piece of text expresses a positive, negative, or neutral opinion."
+    },
+    {
+      "term": "Small Language Model (SLM)",
+      "description": "A compact language model designed to run cheaply or on-device while handling focused tasks well."
+    },
+    {
+      "term": "Softmax",
+      "description": "A function that turns a list of scores into probabilities that add up to one."
+    },
+    {
+      "term": "Speculative Decoding",
+      "description": "A speedup where a small model drafts tokens and a larger model verifies them in parallel."
+    },
+    {
+      "term": "Speech Recognition (Speech-to-Text)",
+      "description": "Converting spoken audio into written text."
+    },
+    {
+      "term": "State Space Model (SSM)",
+      "description": "A sequence model that tracks a compressed running state, offering efficient long-sequence processing."
+    },
+    {
+      "term": "Structured Output",
+      "description": "Getting a model to return data in a strict format such as JSON that follows a defined schema."
+    },
+    {
+      "term": "Subagent",
+      "description": "A specialized agent that handles a delegated part of a larger task for an orchestrator or main agent."
+    },
+    {
+      "term": "Supervised Learning",
+      "description": "Training a model on labeled examples so it learns to map inputs to correct outputs."
+    },
+    {
+      "term": "Sycophancy",
+      "description": "A model's tendency to agree with or flatter the user instead of giving accurate answers."
+    },
+    {
+      "term": "Synthetic Data",
+      "description": "Artificially generated data used to train, test, or augment AI models."
+    },
+    {
+      "term": "System Card",
+      "description": "A document describing a model's capabilities, safety testing, and risks at release."
+    },
+    {
+      "term": "System Prompt",
+      "description": "Instructions given to a model, usually by the developer, that set its role, rules, and behavior for a conversation."
+    },
+    {
+      "term": "Temperature",
+      "description": "A setting that controls how random a model's output is, with higher values giving more varied responses."
+    },
+    {
+      "term": "Tensor",
+      "description": "A multi-dimensional array of numbers, the basic data structure used in deep learning."
+    },
+    {
+      "term": "Test-Time Compute",
+      "description": "Extra computation a model uses while answering, such as longer reasoning, to improve results."
+    },
+    {
+      "term": "Text-to-Image",
+      "description": "Generating images from written descriptions."
+    },
+    {
+      "term": "Text-to-Speech (TTS)",
+      "description": "Converting written text into spoken audio."
+    },
+    {
+      "term": "Text-to-Video",
+      "description": "Generating video clips from written descriptions."
+    },
+    {
+      "term": "Throughput",
+      "description": "How much work an AI system can process in a given time, such as tokens per second."
+    },
+    {
+      "term": "Time to First Token (TTFT)",
+      "description": "The delay before a model produces the first piece of its response."
+    },
+    {
+      "term": "Token",
+      "description": "The basic unit of text a model reads and writes, which can be a word, part of a word, or a symbol."
+    },
+    {
+      "term": "Tokenizer",
+      "description": "The component that splits text into tokens and maps them to numbers a model can process."
+    },
+    {
+      "term": "Tool Use",
+      "description": "An agent's ability to call external tools such as search, code execution, or APIs to take actions."
+    },
+    {
+      "term": "Top-k Sampling",
+      "description": "Choosing the next token only from the k most likely options."
+    },
+    {
+      "term": "Top-p (Nucleus) Sampling",
+      "description": "Choosing the next token from the smallest set of options whose combined probability reaches p."
+    },
+    {
+      "term": "TPU (Tensor Processing Unit)",
+      "description": "A custom Google chip built to accelerate machine learning workloads."
+    },
+    {
+      "term": "Training Data",
+      "description": "The dataset a model learns from during training."
+    },
+    {
+      "term": "Transfer Learning",
+      "description": "Reusing knowledge a model learned on one task to help it learn another."
+    },
+    {
+      "term": "Transformer",
+      "description": "The neural network architecture based on attention that underlies most modern language models."
+    },
+    {
+      "term": "Turing Test",
+      "description": "A test of whether a machine's conversation is indistinguishable from a human's."
+    },
+    {
+      "term": "Underfitting",
+      "description": "When a model is too simple to capture the patterns in the data, performing poorly even on training data."
+    },
+    {
+      "term": "Unsupervised Learning",
+      "description": "Finding structure in data without labeled examples."
+    },
+    {
+      "term": "Validation Set",
+      "description": "A portion of data held out during training to tune settings and check for overfitting."
+    },
+    {
+      "term": "Vector Database",
+      "description": "A database built to store embeddings and quickly find the ones most similar to a query."
+    },
+    {
+      "term": "Vibe Coding",
+      "description": "Building software by describing what you want to an AI in natural language and accepting the generated code with little manual review."
+    },
+    {
+      "term": "Vision Transformer (ViT)",
+      "description": "A transformer applied to images by splitting them into patches treated like tokens."
+    },
+    {
+      "term": "Vision-Language Model (VLM)",
+      "description": "A model that understands both images and text and can answer questions about visual input."
+    },
+    {
+      "term": "Vision-Language-Action Model (VLA)",
+      "description": "A model that takes visual and language input and outputs actions, used to control robots."
+    },
+    {
+      "term": "Watermarking",
+      "description": "Embedding a hidden signal in AI-generated content so it can later be identified as machine-made."
+    },
+    {
+      "term": "Weights",
+      "description": "The numerical values in a neural network that are learned during training and determine its behavior."
+    },
+    {
+      "term": "World Model",
+      "description": "An AI model that learns how an environment works so it can predict what will happen next."
+    },
+    {
+      "term": "Zero-Shot Learning",
+      "description": "Performing a task with no examples, relying only on instructions and prior training."
+    }
+  ]
+}
